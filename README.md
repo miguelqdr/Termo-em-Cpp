@@ -20,3 +20,7 @@ O jogo foi totalmente inspirado no site: https://term.ooo/
 * `<vector>`
 * `<random>`
 * `<cstdlib>`
+
+# Observações
+Caso você esteja no Windows, é possivel que o comando ```system(clear);``` não funcione.
+Nesse caso, substitua-o por ```system(cls);``` no código.
