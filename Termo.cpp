@@ -10,12 +10,13 @@ using namespace std;
 string gera_palavra(const vector<string>& pal);
 int main()
 {
+    
     int pc = 0, pe = 0, chances = 6;
     string palavra, pal_ocl = "#####", pal_sec;
     char let_cet[26] = " ", let_err[26] = " ", qlqr;
     vector<string> lista_pal = {"ARROZ", "CARTA", "BANHO", "FRACO", "FILHO", "MANHA", "JUSTO", "LEGAL", "SANTO", "CORTE", "SONHO", "VETOR", "TURMA", "TROCA", "TEMPO", "OUTRO", "PALCO", "PADRE", "PIADA", "PRATO", "HEROI", "LIVRO", "IRMAO", "MAIOR", "IDADE", "MESES", "PISTA", "PRAZO", "RESTO", "REGRA", "QUASE"};
     pal_sec = gera_palavra(lista_pal);
-    cout << "Bem vindo ao jogo que não pensei o nome ainda!!!" << endl;
+    cout << "Bem vindo ao Termo!!!" << endl;
 
     cout << "Nesse jogo o objetivo é acertar a palavra secreta com 5 letras antes de suas 6 chances acabarem" << endl;
     cout << "Sempre que você acertar a letra, ela será revelada junto a sua posição, boa sorte!\n\n";
