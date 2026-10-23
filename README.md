@@ -5,7 +5,10 @@ Criei um jogo similar ao Termo em C++.
 
 # Compilação e execução
 Para compilar e executar o programa rode em seu terminal o seguinte código:
-```g++ "NOME_DO_ARQUIVO".cpp -o "NOME_DO_EXECUTAVEL"```
+```
+g++ "NOME_DO_ARQUIVO".cpp -o "NOME_DO_EXECUTAVEL"
+./"NOME_DO_EXECUTAVEL"
+```
 
 # Créditos
 O jogo foi totalmente inspirado no site: https://term.ooo/
